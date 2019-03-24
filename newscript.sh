@@ -5,7 +5,7 @@
 sudo apt-get update
 sudo apt-get install default-jre
 sudo wget http://apache.osuosl.org/zookeeper/zookeeper-3.4.13/zookeeper-3.4.13.tar.gz
-apt-get install zookeeperd -y
+sudo apt-get install zookeeperd -y
 sudo adduser --system --no-create-home --disabled-password --disabled-login kafka
 wget https://www-us.apache.org/dist/kafka/0.10.2.2/kafka_2.12-0.10.2.2.tgz
 #curl http://kafka.apache.org/KEYS | gpg --import
