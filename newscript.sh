@@ -2,6 +2,7 @@
 ########################################################################
 # install kafka with dependencies
 ########################################################################
+sudo apt-get update
 sudo apt-get install default-jre
 sudo wget http://apache.osuosl.org/zookeeper/zookeeper-3.4.13/zookeeper-3.4.13.tar.gz
 apt-get install zookeeperd -y
