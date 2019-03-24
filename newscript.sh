@@ -2,7 +2,6 @@
 ########################################################################
 # install kafka with dependencies
 ########################################################################
-sudo apt-get update
 sudo apt-get install default-jre
 sudo wget http://apache.osuosl.org/zookeeper/zookeeper-3.4.13/zookeeper-3.4.13.tar.gz
 apt-get install zookeeperd -y
@@ -14,7 +13,6 @@ wget https://www-us.apache.org/dist/kafka/0.10.2.2/kafka_2.12-0.10.2.2.tgz
 sudo mkdir /opt/kafka
 sudo tar -xvzf kafka_2.12-0.10.2.2.tgz --directory /opt/kafka --strip-components 1
 rm kafka_2.12-0.10.2.2.tgz kafka_2.12-0.10.2.2.tgz.asc
-sudo nano /opt/kafka/config/server.properties
 sudo chown -R kafka:nogroup /opt/kafka
 ########################################################################
 # Attention: depends on the environment
